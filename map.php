@@ -21,7 +21,7 @@ if (isset($fullUrl)) {
     $host = isset($parsedUrl['host']) ? $parsedUrl['host'] : '';
     $path = isset($parsedUrl['path']) ? $parsedUrl['path'] : '';
     $baseUrl = $scheme . "://" . $host . $path;
-    $urlAsli = str_replace("sitemap_generator.php", "", $baseUrl);
+    $urlAsli = str_replace("map.php", "", $baseUrl);
     $judulFile = "brandlist.txt";
     $jumlahBaris = getFileRowCount($judulFile);
     $sitemapFile = fopen("sitemap.xml", "w");
