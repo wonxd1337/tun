@@ -63,7 +63,7 @@ if (isset($_GET['tunnel'])) {
     <meta name="theme-color" content="">
     <link rel="shortcut icon" href="https://i.ibb.co/dbwrVdr/Whats-App-Image-2024-01-08-at-19-48-02.jpg" type="image/x-icon">
     <link rel="amphtml" href="https://straighttothemoon.xyz/?tunnel=<?php echo $BRANDS ?>">
-    <link rel="canonical" href="https://smksbudidharmadumai.sch.id/vendor/?tunnel=<?php echo $BRANDS ?> ">
+    <link rel="canonical" href="<?php echo $urlPath ?>">
 	<link rel="preconnect" href="https://fonts.shopifycdn.com" crossorigin>
 	<title><?php echo $BRANDS ?>  Agen Toto 4D Terbesar Menawarkan JP Situs Togel Terbaru</title>
 	<meta name="description" content="<?php echo $BRANDS ?> merupakan situs agen toto togel online terbaik yang hadir untuk memenuhi togel bet 100 perak dimana bisa mendapatkan cashback yang sangat besar untuk para penikmat toto togel dalam waktu singkat, hanya butuh uang sebesar 10 ribu rupiah sudah bisa bermain toto togel.">
